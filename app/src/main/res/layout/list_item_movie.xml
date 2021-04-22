@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="6dp">
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:background="#232323"
+        android:layout_width="154dp"
+        android:layout_height="231dp"
+        android:scaleType="centerCrop"
+        android:padding="6dp"/>
+    <LinearLayout
+        android:background="#232323"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AFAFAF"
+            android:singleLine="false"
+            android:maxLines="4"
+            android:lines="2"
+            android:text="King Kong Fights Godzilla All Day"
+            android:textSize="18dp"
+            android:layout_weight=".125"
+            android:padding="6dp"/>
+
+        <TextView
+            android:id="@+id/overview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:singleLine="false"
+            android:maxLines="4"
+            android:lines="3"
+            android:textColor="#AFAFAF"
+            android:text="this great big monkey fights a lizard. Tokyp gets destroyed."
+            android:textStyle="italic"
+            android:textSize="14dp"
+            android:layout_weight=".55"
+            android:padding="6dp"/>
+        <TextView
+            android:id="@+id/movie_detials"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:singleLine="false"
+            android:maxLines="4"
+            android:lines="2"
+            android:textColor="#AFAFAF"
+            android:text="Song song song song"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_weight=".25"
+            android:padding="6dp"/>
+    </LinearLayout>
+</LinearLayout>

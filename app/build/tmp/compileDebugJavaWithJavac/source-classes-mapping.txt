@@ -1,0 +1,40 @@
+com/android/popmovies/MainActivity.java
+ com.android.popmovies.MainActivity
+ com.android.popmovies.MainActivity$1
+ com.android.popmovies.MainActivity$2
+ com.android.popmovies.MainActivity$3
+ com.android.popmovies.MainActivity$4
+ com.android.popmovies.MainActivity$5
+com/android/popmovies/entities/PopMovies.java
+ com.android.popmovies.entities.PopMovies
+com/android/popmovies/entities/production_country.java
+ com.android.popmovies.entities.production_country
+com/android/popmovies/entities/MovieDetailsData.java
+ com.android.popmovies.entities.MovieDetailsData
+com/android/popmovies/MovieDetails.java
+ com.android.popmovies.MovieDetails
+com/android/popmovies/BuildConfig.java
+ com.android.popmovies.BuildConfig
+com/android/popmovies/MoviesAdapter.java
+ com.android.popmovies.MoviesAdapter
+ com.android.popmovies.MoviesAdapter$OnItemClickListener
+ com.android.popmovies.MoviesAdapter$ViewHolder
+ com.android.popmovies.MoviesAdapter$ViewHolder$1
+com/android/popmovies/entities/Credits.java
+ com.android.popmovies.entities.Credits
+com/android/popmovies/APIHelper.java
+ com.android.popmovies.APIHelper
+com/android/popmovies/entities/genre.java
+ com.android.popmovies.entities.genre
+com/android/popmovies/entities/Genres.java
+ com.android.popmovies.entities.Genres
+com/android/popmovies/entities/Popmovie.java
+ com.android.popmovies.entities.Popmovie
+com/android/popmovies/entities/ProductionCompany.java
+ com.android.popmovies.entities.ProductionCompany
+com/android/popmovies/entities/spoken_language.java
+ com.android.popmovies.entities.spoken_language
+com/android/popmovies/entities/Actor.java
+ com.android.popmovies.entities.Actor
+com/android/popmovies/entities/BelongsToCollection.java
+ com.android.popmovies.entities.BelongsToCollection

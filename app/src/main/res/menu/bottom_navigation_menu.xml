@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <item
+        android:id="@+id/back"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_arrow_left_24"
+        android:title="Prev"/>
+    <item
+        android:id="@+id/forward"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_arrow_right_24"
+        android:title="Next"/>
+</menu>
